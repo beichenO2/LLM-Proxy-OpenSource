@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-neutral-900 bg-neutral-50;
+  }
+
+  .dark body,
+  body.dark {
+    @apply text-neutral-100 bg-neutral-900;
+  }
+
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible,
+  button:focus-visible,
+  a:focus-visible {
+    @apply outline-none ring-2 ring-neutral-900/20 ring-offset-1;
+  }
+
+  .dark input:focus-visible,
+  .dark textarea:focus-visible,
+  .dark select:focus-visible,
+  .dark button:focus-visible,
+  .dark a:focus-visible {
+    @apply ring-neutral-100/30 ring-offset-neutral-900;
+  }
+
+  button,
+  a,
+  input,
+  textarea,
+  select {
+    @apply transition-colors duration-150;
+  }
+}
+

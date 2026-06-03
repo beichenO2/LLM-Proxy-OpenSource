@@ -1,0 +1,23 @@
+# Pinned dependency versions — auto-generated from Mac Studio working state
+# Run: pip install -r requirements.txt
+# Update: pip freeze | grep -iE "^(fastapi|uvicorn|...)" > requirements.txt
+alembic==1.18.4
+annotated-types==0.7.0
+anyio==4.9.0
+click==8.2.1
+cryptography==46.0.3
+fastapi==0.135.3
+httpcore==1.0.9
+httpx==0.28.1
+markdown-it-py==3.0.0
+pydantic==2.13.0
+pydantic-core==2.46.0
+pydantic-settings==2.13.1
+python-multipart==0.0.26
+SQLAlchemy==2.0.49
+starlette==1.0.0
+structlog==25.5.0
+typer==0.24.1
+typing-extensions>=4.12.0
+typing-inspection==0.4.2
+uvicorn[standard]==0.44.0

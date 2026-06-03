@@ -1,0 +1,40 @@
+{
+  "name": "llm-proxy-sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK — 通过 LLM Proxy /v1 网关调用大模型（源自 PolarPrivate privportal-sdk）",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./llm": {
+      "import": "./dist/llm.js",
+      "types": "./dist/llm.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "llm",
+    "proxy",
+    "openai",
+    "gateway",
+    "polarprivate"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^5.0.0",
+    "vitest": "^2.0.0"
+  }
+}

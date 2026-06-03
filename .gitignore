@@ -1,0 +1,13 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.privportal/
+privportal.db
+backend/logs/
+.DS_Store
+.env
+.env.*
